@@ -10,7 +10,7 @@ RUN mvn clean package
 
 FROM adoptopenjdk:11-jre-hotspot
 
-ENV PROFILE=dev
+ENV PROFILE=stg
 
 WORKDIR /app
 
